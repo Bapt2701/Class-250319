@@ -24,32 +24,7 @@ console.log (y)
 
 
 
-//  targil 2 : 
-var size = Math.floor(Math.random() * 11) + 10
-var arr1 = []
-var arr2 = []
-
-
-var x = Math.floor(Math.random() * 201) - 100
-console.log(x)
-
-
-
-
-
-var x = parseInt(prompt("Enter number:"))
-while (x <= 0)
-  {
-    x = parseInt(prompt("Enter number:"))
-  }
-
-var atz = 1
-for(var i = 1; i <= x; i = i + 1)
-  {
-    atz = atz * i
-  }
-console.log(atz)
-
+//  targil 2 : create a table with 2 randoms lines with 10 to 20 lines inside. then, choose randomly in the table 2 numbers for each line and conclude which of themis bigger and print it
 
 
 var size = Math.floor(Math.random() * 11) + 10 // 10-20
@@ -95,7 +70,7 @@ else  {
   }
 
 
-
+// targil 3 : Put a number an find if he is a prime number or not
 
 var x = parseInt(prompt("Enter number:"))
 var m = 2
